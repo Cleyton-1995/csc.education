@@ -9,17 +9,6 @@ const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <>
-      <View style={{
-        paddingTop: getStatusBarHeight(),
-      }} >
-        <StatusBar
-          barStyle={"light-content"}
-          translucent
-          backgroundColor="#043484"
-        />
-      </View>
-
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{ headerShown: false }}
@@ -28,6 +17,5 @@ export default function App() {
           <Stack.Screen name="Login" component={Login} />
         </Stack.Navigator>
       </NavigationContainer>
-    </>
   );
 }
