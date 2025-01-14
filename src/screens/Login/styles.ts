@@ -21,4 +21,20 @@ export const styles = StyleSheet.create({
     marginTop: 40,
     fontSize: 20,
   },
+
+  textButton: {
+    color: "#FFFFFF"
+  },
+  
+  signButton: {
+    display: "flex",
+    backgroundColor: "#043484",
+    padding: 10,
+    margin: 30,
+    alignItems: "center",
+    flexDirection: "row",
+    justifyContent: "center",
+    gap: 5,
+    borderRadius: 50,
+  },
 });
