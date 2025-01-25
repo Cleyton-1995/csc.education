@@ -2,10 +2,14 @@
   "expo": {
     "name": "csc-edu",
     "slug": "csc-edu",
+    "scheme": "csc-edu",
+    "platforms": ["ios", "android", "web"],
+    "extra": {
+      "CLERK_API_KEY": "pk_test_ZGVzdGluZWQtY2hpcG11bmstNzAuY2xlcmsuYWNjb3VudHMuZGV2JA"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
